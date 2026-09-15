@@ -1,4 +1,4 @@
-package OlaMundo;
+package CursoJava;
 
 public class OlaMundo {
     public void main(String[] args) {
