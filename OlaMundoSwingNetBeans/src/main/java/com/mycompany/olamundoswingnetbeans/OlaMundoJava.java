@@ -37,6 +37,7 @@ public class OlaMundoJava extends javax.swing.JFrame {
         lblMensagem.setText("Aqui vai mudar ao Clicar");
 
         btnClick.setText("Clique aqui");
+        btnClick.addActionListener(this::btnClickActionPerformed);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -61,6 +62,10 @@ public class OlaMundoJava extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClickActionPerformed
+        lblMensagem.setText("Olá, Mundo");
+    }//GEN-LAST:event_btnClickActionPerformed
 
     /**
      * @param args the command line arguments
