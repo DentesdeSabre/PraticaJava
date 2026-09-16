@@ -24,7 +24,7 @@ public class Pilha {
         if (topo!=null){
             No aux;
             aux=topo;
-            
+
             topo=topo.proximo;
             qtd--;
         }
