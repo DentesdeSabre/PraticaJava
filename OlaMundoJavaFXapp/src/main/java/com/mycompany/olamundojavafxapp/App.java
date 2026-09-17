@@ -1,4 +1,4 @@
-package com.mycompany.olamundojavafxmobile;
+package com.mycompany.olamundojavafxapp;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
